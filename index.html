@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>мой тест</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="queition1">
+		<img src="1.jpg" class="queition-img">
+		<button class="queition-btn queition1-ansver1">эрмитаж</button>
+		<button class="queition-btn queition1-ansver2">московские ворота</button>
+		<button class="queition-btn queition1-ansver3">стелла</button>
+	</div>
+	<div class="queition2">
+		<img src="2.jpg" class="queition-img">
+		<button class="queition-btn queition2-ansver1">площадь ленина Якутск</button>
+		<button class="queition-btn queition2-ansver2">площадь победы</button>
+		<button class="queition-btn queition2-ansver3">парк</button>	
+	</div>
+	<div class="queition3">
+		<img src="3.jfif" class="queition-img">
+		<button class="queition-btn queition3-ansver1">московский кремль</button>
+		<button class="queition-btn queition3-ansver2">крепость</button>
+		<button class="queition-btn queition3-ansver3">нижегородский кремль</button>
+	</div>
+		<img src="win.jpg" class="img">
+	<script type="text/javascript">
+		document.querySelector(".queition1-ansver1").onclick = function() {
+			alert("не правильно!");
+		}	
+		document.querySelector(".queition1-ansver2").onclick = function() {
+			alert("правильно!"); 
+			document.querySelector(".queition1").style.display = "none"
+			document.querySelector(".queition2").style.display = "block"
+		}
+			document.querySelector(".queition1-ansver3").onclick = function() {
+			alert("не правильно!");
+		}	
+				document.querySelector(".queition2-ansver1").onclick = function() {
+			alert("правильно!"); 
+			document.querySelector(".queition2").style.display = "none"
+			document.querySelector(".queition3").style.display = "block"
+		}
+			document.querySelector(".queition2-ansver2").onclick = function() {
+			alert("не правильно!");
+		}	
+
+			document.querySelector(".queition2-ansver3").onclick = function() {
+			alert("не правильно!");
+		}	
+
+			document.querySelector(".queition3-ansver1").onclick = function() {
+			alert("не правильно!");
+		}	
+
+			document.querySelector(".queition3-ansver2").onclick = function() {
+			alert("не правильно!");
+		}	
+			document.querySelector(".queition3-ansver3").onclick = function() {
+			alert("правильно!"); 
+			document.querySelector(".queition3").style.display = "none"
+			document.querySelector(".img").style.display = "block"
+		}
+	</script>
+</body>s
+</html>
